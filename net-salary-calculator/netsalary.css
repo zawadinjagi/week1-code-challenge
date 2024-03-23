@@ -20,17 +20,17 @@ body {
     justify-content: center;
     align-items: center;
   }
-.basic-salary {
+#basic-salary {
     display: block;
-    width: 400px;
+    width: 300px;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid #172432;
   }
-  .benefits {
+  #benefits {
     display: block;
-    width: 400px;
+    width: 300px;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
@@ -39,5 +39,5 @@ body {
   .result{
     position: relative;
     margin: 10px;
-    bottom: 50px;
+    bottom: 20px;
   }
