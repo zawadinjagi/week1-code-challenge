@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="studentMarks.css">
+    <script src="student-grade-generate.js" defer></script>
+</head>
+<body>
+
+    <div class="Studentsmarks">
+        <form action="" id="studentsMarks">
+          <label for="JavaScript">JavaScript:</label><br>
+          <input type="number" class="JS"id="JavaScript" name="JavaScript" placeholder="Enter studentMarks..."><br>
+  
+          <label for="CSS">CSS:</label><br>
+          <input type="number" class="CSS" id="CSS" name="CSS" placeholder="Enter studentMarks..."><br>
+  
+          <label for="HTML">HTML:</label><br>
+          <input type="number"class="HTML" id="HTML" name="HTML" placeholder="Enter studentMarks..."><br>
+          <button type="button" id="calculateButton">Submit</button><br>
+       </form>
+    </div>
+    
+    <div class="calculateGrade" id="calculateGrade">
+        <p id="averageMark"></p>
+        <p id="grade"></p>
+    </div>
+
+</body>
+</html>
