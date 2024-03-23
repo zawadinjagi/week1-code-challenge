@@ -1,0 +1,39 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://e0.pxfuel.com/wallpapers/226/396/desktop-wallpaper-aesthetic-earth-galaxy-from-earth.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    text-align: center;
+    
+}
+.salary-calculator {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.basic-salary {
+    display: block;
+    width: 400px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #172432;
+  }
+  .benefits {
+    display: block;
+    width: 400px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #172432;
+  }
+  .result{
+    position: relative;
+    margin: 10px;
+    bottom: 50px;
+  }
