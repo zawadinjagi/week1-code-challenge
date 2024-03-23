@@ -1,4 +1,5 @@
 function calculatePayee(grossSalary) {
+    // calculating paye
     let payee = 0;
     if (grossSalary <= 24000) {
         payee = 0.1 * grossSalary;
@@ -19,7 +20,7 @@ function calculatePayee(grossSalary) {
     }
     return payee;
   }
-  
+  // calculating NHIF rates
   function calculateNHIF(basicSalary) {
     let nhif = 0;
     if (basicSalary <= 5999) {
@@ -55,11 +56,12 @@ function calculatePayee(grossSalary) {
     }
     return nhif;
   }
-  
+  // calculating NSSF rates
   function calculateNSSF(basicSalary) {
     return Math.min(0.06 * basicSalary, 6000);
   }
-  
+  // calculating the net salary
+
   function calculateNetSalary(basicSalary, benefits) {
     const grossSalary = basicSalary + benefits;
     const payee = calculatePayee(grossSalary);
@@ -68,7 +70,7 @@ function calculatePayee(grossSalary) {
     const netSalary = grossSalary - payee - nhif - nssf;
     return netSalary;
   }
-  
+  // displaying the net salary
   function calculateAndDisplayNetSalary() {
     const basicSalary = parseFloat(document.querySelector("#basic-salary").value);
     const benefits = parseFloat(document.querySelector("#benefits").value);

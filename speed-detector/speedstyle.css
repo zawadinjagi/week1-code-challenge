@@ -1,3 +1,5 @@
+/* styles the body to have a background image and have all text centralized*/
+
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     margin: 0;
@@ -9,6 +11,8 @@ body {
     text-align: center;
     
 }
+/* to style the form to be centralized on the screen*/
+
 .speed-detector {
     height: 100vh;
     width: 100%;
@@ -24,6 +28,8 @@ body {
     border-radius: 5px;
     border: 2px solid #172432;
   }
+  /* to style the resulting message  after the submit button*/
+
   .detectSpeed{
     position: relative;
     margin: 10px;

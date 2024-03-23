@@ -1,3 +1,4 @@
+/*styles the body to have a background image and align text at the centre of the page*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -14,6 +15,7 @@ body {
     text-align: center;
     margin-top: 100px;
 }
+/* styles buttons*/
 .btn {
     background-color: #7ccce2;
     color: white;
@@ -27,6 +29,7 @@ body {
     border-radius: 5px;
     border: none;
 }
+/* makes the button a little darker when the mouse hovers over the button*/
 .btn:hover {
     background-color: #5aa2e1;
 }
