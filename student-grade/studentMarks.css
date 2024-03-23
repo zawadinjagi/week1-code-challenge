@@ -43,11 +43,15 @@ body {
     border: 2px solid #172432;
   }
   /* to style the results div so that it is right under the submit button*/
-
+.calculateGrade{
+  position: relative;
+    margin: 10px;
+    bottom: 70px;
+  }
   .averageMark{
     position: relative;
     margin: 10px;
-    bottom: 200px;
+    bottom: 100px;
   }
   .grade{
     position: relative;
