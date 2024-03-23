@@ -1,9 +1,9 @@
 /*styles the body to have a background image and align text at the centre of the page*/
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://img.freepik.com/free-photo/aesthetic-earth-universe-background-gradient-gray-blue_53876-111075.jpg'); 
+    background-image: url("https://e0.pxfuel.com/wallpapers/226/396/desktop-wallpaper-aesthetic-earth-galaxy-from-earth.jpg"); 
     background-size: cover; 
     background-position: center; 
     color: white;
